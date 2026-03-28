@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Noto+Sans+Kaithi&display=swap"
+        rel="stylesheet">
+
+
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="My App" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <title>Валерія Сергєєва</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">Валерія Сергєєва</div>
+        <nav id="nav" class="">
+            <ul>
+                <li><a href="#about">Про мене</a></li>
+                <li><a href="#gallery">Галерея</a></li>
+                <li><a href="#experience">Досвід</a></li>
+                <li><a href="#contacts">Контакти</a></li>
+            </ul>
+        </nav>
+        <div class="nav-icon">
+            <a href="javascript:void(0);" class="icon" onclick="navopen ()">
+                <img src="/img/icons/menu-icon.png" alt="Mеню" />
+            </a>
+        </div>
+    </header>
+    <main>
+        <div class="about gray-bg" id="about">
+            <div class="align-center">
+                <img src="/img/portrait.png" alt="portrait" class="portrait">
+                <div class="about-text">
+                    <h1>Про мене</h1>
+                    <p>Мої улюблені дисципліни, Батик, Композиція та Живопис</p>
+                    <a href="#gallery">Про мене</a>
+                </div>
+            </div>
+        </div>
+        <div class="experience gray-bg" id="gallery">
+            <h1>Галерея</h1>
+            <div class="container align-center">
+                <a href="img/gallery/batik-cold.jpg" target="_blank">
+                    <figure>
+                        <img src="img/gallery/preview/batik-cold.jpg" alt="Чай з лимоном">
+                        <figcaption>
+                            <h2> "Чай з лимоном" </h2>
+                            <div class="desc"> (холодний батик)</div>
+                        </figcaption>
+                    </figure>
+                </a>
+                <a href="img/gallery/composition-kazka.jpg" target="_blank">
+                    <figure>
+                        <img src="img/gallery/preview/composition-kazka.jpg" alt="Кіт у чобітках">
+                        <figcaption>
+                            <h2> "Кіт у чобітках" </h2>
+                            <div class="desc"> (акварель, лінери, акварельні олівці)</div>
+                        </figcaption>
+                    </figure>
+                </a>
+                <a href="img/gallery/composition-corner.building.jpg" target="_blank">
+                    <figure>
+                        <img src="img/gallery/preview/composition-corner.building.jpg"
+                            alt="Будинок у кутовій перспективі">
+                        <figcaption>
+                            <h2> "Будинок у кутовій перспективі" </h2>
+                            <div class="desc"> ( акварель, лінери, акварельні олівці)</div>
+                        </figcaption>
+                    </figure>
+                </a>
+                <a href="img/gallery/painting-face.part.jpg" target="_blank">
+                    <figure>
+                        <img src="img/gallery/preview/painting-face.part.jpg" alt="Ліцьові частини">
+                        <figcaption>
+                            <h2> "Ліцьові частини" </h2>
+                            <div class="desc"> (акварель)</div>
+                        </figcaption>
+                    </figure>
+                </a>
+                <a href="img/gallery/composition-corner.frontal.jpg" target="_blank">
+                    <figure>
+                        <img src="img/gallery/preview/composition-corner.frontal.jpg"
+                            alt="Будинок у фронтальній перспективі">
+                        <figcaption>
+                            <h2> "Будинок у фронтальній перспективі" </h2>
+                            <div class="desc"> ( акварель, лінери, акварельні олівці)</div>
+                        </figcaption>
+                    </figure>
+                </a>
+                <a href="img/gallery/painting-eye.jpg" target="_blank">
+                    <figure>
+                        <img src="img/gallery/preview/painting-eye.jpg" alt="Око">
+                        <figcaption>
+                            <h2> "Око" </h2>
+                            <div class="desc"> (акварель)</div>
+                        </figcaption>
+                    </figure>
+                </a>
+            </div>
+        </div>
+        <div class="experience gray-bg" id="experience">
+            <h1>Досвід</h1>
+            <div class="container align-center skill">
+                <div class="skill"
+                    class="icon-container">
+                        <img src="img/icons/batik-icon.png" alt="skill icon">
+                    </div>
+                    <div class="skill-caption">
+                        <div class="skill-name">Батик</div>
+                        <div class="skill-level">
+                            <div class="range" style="width:75%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+        </div>   
+                <div class="skill">
+                    <div class="icon-container">
+                        <img src="img/icons/composition-icon.png" alt="skill icon">
+                    </div>
+                </div>
+            <div>
+                    <div class="skill-caption">
+                        <div class="skill-name">Композиція</div>
+                    </div>
+                <div>
+                    <div class="skill-level">
+                        <div class="range" style="width:75%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="icon-container"></div>
+                </div>
+            </div>
+            <div>
+                <img src="img/icons/painting-icon.png" alt="skill icon">
+            </div>
+        <div class="skill-caption">
+            <div class="skill-name">Живопис</div>
+            <div class="skill-level">
+                <div class="range" style="width:75%;"></div>
+            </div>
+        </div>
+        <div class="contacts" id="contacts">
+            <!-- Контакти -->
+            <h1>Контакти</h1>
+            <div class="container align-center">
+                <div class="skill">
+                    <div class="icon-container">
+                        <img src="img/icons/fb-icon.png" alt="skill icon">
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="icon-container">
+                        <img src="img/icons/instagram-icon.png" alt="skill icon">
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="icon-container">
+                        <img src="img/icons/viber-icon.png" alt="skill icon">
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="icon-container">
+                        <img src="img/icons/telegram-icon.png" alt="skill icon">
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="icon-container">
+                        <img src="img/icons/email-icon.png" alt="skill icon">
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="icon-container">
+                        <img src="img/icons/phone-icon.png" alt="skill icon">
+                    </div>
+                </div>
+                <footer class="gray-bg">
+                    <div class="align-center icon-container">
+                        <nav>
+                            <ul>
+                                <li><a href="#about">Про мене</a></li>
+                                <li><a href="#gallery">Галерея</a></li>
+                                <li><a href="#experience">Досвід</a></li>
+                                <li><a href="#contacts">Контакти</a></li>
+                            </ul>
+                        </nav>
+                        <div class="copyright">
+                            Ⓒ Валерія Сергєєва, 2026
+                        </div>
+                </footer>
+                <script>
+                    function navopen() {
+                        var x = document.getElementById("nav");
+                        if (x.className === "") {
+                            x.className += "show";
+                        } else {
+                            x.className = "";
+                        }
+                    }
+                </script>
+
+</body>
+
+</html>
